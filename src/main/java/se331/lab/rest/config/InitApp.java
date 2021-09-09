@@ -28,7 +28,7 @@ public class InitApp implements ApplicationListener<ApplicationReadyEvent> {
         tempEvent = eventRepository.save(Event.builder()
                 .category("Academic")
                 .title("Midterm Exam")
-                .description("A time for taking the exam")
+                .description("A time for taking the exam NOOOOO")
                 .location("CAMT Building")
                 .date("3rd Sept")
                 .time("3.00-4.00 pm.")
